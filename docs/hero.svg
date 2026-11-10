@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+<title id="title">crumb</title><desc id="desc">Large failing inputs. Small reproducible examples. A large stack of records becomes two small records.</desc>
+<rect width="1200" height="440" rx="28" fill="#253641"/>
+<g fill="#f2733f"><rect x="66" y="63" width="12" height="32" rx="3"/><rect x="86" y="76" width="12" height="19" rx="3"/><rect x="106" y="83" width="12" height="12" rx="3"/></g>
+<text x="62" y="239" fill="#fffaf0" font-family="system-ui,sans-serif" font-size="126" font-weight="800" letter-spacing="-8">crumb</text>
+<text x="70" y="297" fill="#fffaf0" font-family="system-ui,sans-serif" font-size="27" font-weight="600">Large failing inputs.</text>
+<text x="70" y="335" fill="#c0cbd0" font-family="system-ui,sans-serif" font-size="27">Small reproducible examples.</text>
+<g stroke="#566b78" stroke-width="12" stroke-linecap="round"><path d="M688 103h100M688 131h100M688 159h100M688 187h100M688 215h100M688 243h100M688 271h100M688 299h100M688 327h100"/></g>
+<path d="M688 131h100M688 299h100" stroke="#f2733f" stroke-width="12" stroke-linecap="round"/>
+<path d="M832 215h70m-18-18 18 18-18 18" stroke="#c0cbd0" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="946" y="158" width="160" height="115" rx="18" fill="#fffaf0"/>
+<path d="M972 194h108M972 237h108" stroke="#f2733f" stroke-width="12" stroke-linecap="round"/>
+<text x="72" y="393" fill="#97a9b3" font-family="system-ui,sans-serif" font-size="13" letter-spacing="2">NO MODEL. NO API KEY. NO SPECIAL TEST SCRIPT.</text>
+</svg>

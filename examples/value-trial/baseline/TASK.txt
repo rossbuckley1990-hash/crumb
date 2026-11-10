@@ -1,0 +1,21 @@
+An order-import tool fails on the supplied orders.csv. Diagnose and fix the
+importer, keeping its documented input rules. Produce a compact CSV reproducer
+for the original failure, add a regression check, and verify the repaired
+importer against the full original CSV. Do not edit the full CSV.
+
+Business policy:
+- An order reference belongs to one supplier's namespace. Different suppliers
+  can legitimately issue the same order reference and line number.
+- Repeated byte-equivalent order lines within the same supplier/order/line are
+  retransmissions and must be counted once.
+- Different contents claiming the same supplier/order/line are a real conflict
+  and must remain an error; do not suppress all duplicates or all exceptions.
+- Amounts use exact decimal arithmetic. Report totals separately by supplier
+  and currency; no currency conversion.
+- Keep the command interface: python import_orders.py orders.csv. Success is
+  JSON on stdout and exit 0. Invalid data is an error on stderr and exit 1.
+
+You have ordinary shell/Python tools and access to all source and data. Work
+only in your assigned copy. Explain the root cause and provide exact commands
+and observed results. You have five minutes. There is no requirement to use
+any particular debugging approach. Do not ask the evaluator for a hint.

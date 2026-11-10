@@ -1,0 +1,50 @@
+test_command_cannot_silently_mutate_source (test_acceptance.AcceptanceTests.test_command_cannot_silently_mutate_source) ... ok
+test_common_error_footer_cannot_hide_a_different_failure (test_acceptance.AcceptanceTests.test_common_error_footer_cannot_hide_a_different_failure) ... ok
+test_csv_preserves_bom_crlf_multiline_and_quoting (test_acceptance.AcceptanceTests.test_csv_preserves_bom_crlf_multiline_and_quoting) ... ok
+test_empty_failure_needs_explicit_opt_in (test_acceptance.AcceptanceTests.test_empty_failure_needs_explicit_opt_in) ... ok
+test_existing_output_is_not_overwritten (test_acceptance.AcceptanceTests.test_existing_output_is_not_overwritten) ... ok
+test_explicit_match_handles_a_changing_record_number (test_acceptance.AcceptanceTests.test_explicit_match_handles_a_changing_record_number) ... ok
+test_flaky_baseline_is_rejected (test_acceptance.AcceptanceTests.test_flaky_baseline_is_rejected) ... ok
+test_html_report_escapes_command_output (test_acceptance.AcceptanceTests.test_html_report_escapes_command_output) ... ok
+test_jsonl_reduction_keeps_whole_records (test_acceptance.AcceptanceTests.test_jsonl_reduction_keeps_whole_records) ... ok
+test_malformed_json_is_rejected_without_false_reduction (test_acceptance.AcceptanceTests.test_malformed_json_is_rejected_without_false_reduction) ... ok
+test_nested_json_retains_scaffolding (test_acceptance.AcceptanceTests.test_nested_json_retains_scaffolding) ... ok
+test_only_input_path_in_error_is_normalized (test_acceptance.AcceptanceTests.test_only_input_path_in_error_is_normalized) ... ok
+test_shell_metacharacters_are_literal_arguments (test_acceptance.AcceptanceTests.test_shell_metacharacters_are_literal_arguments) ... ok
+test_stdout_failure_is_handled_without_stderr (test_acceptance.AcceptanceTests.test_stdout_failure_is_handled_without_stderr) ... ok
+test_successful_baseline_is_rejected (test_acceptance.AcceptanceTests.test_successful_baseline_is_rejected) ... ok
+test_timeout_is_not_a_preserved_failure (test_acceptance.AcceptanceTests.test_timeout_is_not_a_preserved_failure) ... ok
+test_timeout_stops_children_in_the_command_process_group (test_acceptance.AcceptanceTests.test_timeout_stops_children_in_the_command_process_group) ... ok
+test_two_distant_records_survive_together (test_acceptance.AcceptanceTests.test_two_distant_records_survive_together) ... ok
+test_ambiguous_json_requires_pointer (test_core.CoreTests.test_ambiguous_json_requires_pointer) ... ok
+test_budget_includes_baselines_roundtrip_and_final (test_core.CoreTests.test_budget_includes_baselines_roundtrip_and_final) ... ok
+test_candidate_mutation_detected (test_core.CoreTests.test_candidate_mutation_detected) ... ok
+test_csv_bom_crlf_multiline_and_vertical_char_preserved (test_core.CoreTests.test_csv_bom_crlf_multiline_and_vertical_char_preserved) ... ok
+test_distant_interacting_csv_records (test_core.CoreTests.test_distant_interacting_csv_records) ... ok
+test_duplicate_json_keys_refused (test_core.CoreTests.test_duplicate_json_keys_refused) ... ok
+test_escaped_json_pointer (test_core.CoreTests.test_escaped_json_pointer) ... ok
+test_existing_directory_is_untouched (test_core.CoreTests.test_existing_directory_is_untouched) ... ok
+test_final_filename_independently_checked (test_core.CoreTests.test_final_filename_independently_checked) ... ok
+test_flaky_baseline_rejected (test_core.CoreTests.test_flaky_baseline_rejected) ... ok
+test_invalid_utf8_diagnostics_do_not_collide_with_escape_text (test_core.CoreTests.test_invalid_utf8_diagnostics_do_not_collide_with_escape_text) ... ok
+test_json_reserialization_must_reproduce (test_core.CoreTests.test_json_reserialization_must_reproduce) ... ok
+test_jsonl_physical_lines_preserved (test_core.CoreTests.test_jsonl_physical_lines_preserved) ... ok
+test_malformed_jsonl_has_explicit_raw_lines_escape (test_core.CoreTests.test_malformed_jsonl_has_explicit_raw_lines_escape) ... ok
+test_match_opt_in_handles_variable_counts (test_core.CoreTests.test_match_opt_in_handles_variable_counts) ... ok
+test_nested_json_preserves_scaffolding_and_pointer (test_core.CoreTests.test_nested_json_preserves_scaffolding_and_pointer) ... ok
+test_original_mutation_detected (test_core.CoreTests.test_original_mutation_detected) ... ok
+test_output_limit_is_not_truncated_matching (test_core.CoreTests.test_output_limit_is_not_truncated_matching) ... ok
+test_passing_baseline_rejected (test_core.CoreTests.test_passing_baseline_rejected) ... ok
+test_path_normalization (test_core.CoreTests.test_path_normalization) ... ok
+test_same_last_line_is_not_same_failure (test_core.CoreTests.test_same_last_line_is_not_same_failure) ... ok
+test_semicolon_dialect_and_no_header (test_core.CoreTests.test_semicolon_dialect_and_no_header) ... ok
+test_silent_failure_needs_explicit_opt_in (test_core.CoreTests.test_silent_failure_needs_explicit_opt_in) ... ok
+test_timeout_rejected (test_core.CoreTests.test_timeout_rejected) ... ok
+test_empty_selection_points_to_setup_or_envelope (test_first_use.FirstUseTests.test_empty_selection_points_to_setup_or_envelope) ... ok
+test_multiple_existing_inputs_require_explicit_selection (test_first_use.FirstUseTests.test_multiple_existing_inputs_require_explicit_selection) ... ok
+test_prefix_failing_command_without_rewriting_input (test_first_use.FirstUseTests.test_prefix_failing_command_without_rewriting_input) ... ok
+
+----------------------------------------------------------------------
+Ran 45 tests in 13.135s
+
+OK

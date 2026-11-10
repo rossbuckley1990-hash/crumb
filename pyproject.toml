@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crumb-reducer"
+version = "0.1.0"
+description = "Give it the command that fails. Get a tiny input that reproduces the observed error."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Ross Buckley"}]
+dependencies = []
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Software Development :: Debuggers",
+]
+
+[project.scripts]
+crumb = "crumb.cli:main"
+
+[project.urls]
+Repository = "https://github.com/rossbuckley1990-hash/crumb"
+Issues = "https://github.com/rossbuckley1990-hash/crumb/issues"
+
+[tool.setuptools.packages.find]
+include = ["crumb*"]
+
+[tool.setuptools.package-data]
+crumb = ["agent-guide.md"]

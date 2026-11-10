@@ -1,0 +1,3 @@
+supplier,order_ref,line_number,sku,qty,unit_price,currency
+north-star,PO-73042,1,SKU-181,3,24.50,GBP
+south-bay,PO-73042,1,SKU-392,2,41.75,GBP

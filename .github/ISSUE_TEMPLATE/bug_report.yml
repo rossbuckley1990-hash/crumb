@@ -1,0 +1,22 @@
+name: Reduction bug
+description: A small sanitized case where Crumb fails or keeps the wrong failure.
+body:
+  - type: textarea
+    id: task
+    attributes:
+      label: What were you trying to debug?
+      description: Input format, original and reduced size, and the expected error. No private data.
+    validations:
+      required: true
+  - type: textarea
+    id: command
+    attributes:
+      label: Safe-to-repeat command and minimal input
+      description: Remove credentials and private records. Explain dependencies.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Observed result and environment
+      description: Crumb version, OS, Python version, and the actual error or report fields.

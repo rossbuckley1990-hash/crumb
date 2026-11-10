@@ -1,0 +1,37 @@
+{
+  "commands": [
+    {
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "-v",
+        "test_import_orders.py"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": "test_complete_original_fixture (test_import_orders.ImportOrdersRegression.test_complete_original_fixture) ... ok\ntest_conflicting_content_remains_an_error (test_import_orders.ImportOrdersRegression.test_conflicting_content_remains_an_error) ... ok\ntest_identical_retransmissions_count_once (test_import_orders.ImportOrdersRegression.test_identical_retransmissions_count_once) ... ok\ntest_invalid_values_remain_errors (test_import_orders.ImportOrdersRegression.test_invalid_values_remain_errors) ... ok\ntest_original_failure_reproducer (test_import_orders.ImportOrdersRegression.test_original_failure_reproducer) ... ok\ntest_totals_are_separate_by_supplier_and_currency (test_import_orders.ImportOrdersRegression.test_totals_are_separate_by_supplier_and_currency) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.695s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python",
+        "import_orders.py",
+        "orders.csv"
+      ],
+      "exit": 0,
+      "stdout": "{\"orders\": 6000, \"retransmissions\": 2, \"totals\": [{\"amount\": \"723282.72\", \"currency\": \"EUR\", \"supplier\": \"cedar-grove\"}, {\"amount\": \"716993.00\", \"currency\": \"GBP\", \"supplier\": \"green-field\"}, {\"amount\": \"715088.06\", \"currency\": \"GBP\", \"supplier\": \"north-star\"}, {\"amount\": \"723404.77\", \"currency\": \"EUR\", \"supplier\": \"south-bay\"}, {\"amount\": \"83.50\", \"currency\": \"GBP\", \"supplier\": \"south-bay\"}], \"unique_lines\": 6000}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "import_orders.py",
+        "reproducer.csv"
+      ],
+      "exit": 0,
+      "stdout": "{\"orders\": 2, \"retransmissions\": 0, \"totals\": [{\"amount\": \"73.50\", \"currency\": \"GBP\", \"supplier\": \"north-star\"}, {\"amount\": \"83.50\", \"currency\": \"GBP\", \"supplier\": \"south-bay\"}], \"unique_lines\": 2}\n",
+      "stderr": ""
+    }
+  ],
+  "input_sha256": "3a293ca684df18d4356c06ec24b81e6f903cbb09da64c78fd3d17d9d8008e1e2"
+}

@@ -1,0 +1,7 @@
+# Fixture bytes, including CRLF, are part of the recorded evidence.
+*.csv -text whitespace=cr-at-eol
+*.html -text whitespace=cr-at-eol
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf

@@ -1,0 +1,32 @@
+{
+  "orders": 6000,
+  "retransmissions": 2,
+  "totals": [
+    {
+      "amount": "723282.72",
+      "currency": "EUR",
+      "supplier": "cedar-grove"
+    },
+    {
+      "amount": "716993.00",
+      "currency": "GBP",
+      "supplier": "green-field"
+    },
+    {
+      "amount": "715088.06",
+      "currency": "GBP",
+      "supplier": "north-star"
+    },
+    {
+      "amount": "723404.77",
+      "currency": "EUR",
+      "supplier": "south-bay"
+    },
+    {
+      "amount": "83.50",
+      "currency": "GBP",
+      "supplier": "south-bay"
+    }
+  ],
+  "unique_lines": 6000
+}

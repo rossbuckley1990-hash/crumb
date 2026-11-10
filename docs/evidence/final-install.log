@@ -1,0 +1,7 @@
+Processing ./crumb/dist/crumb_reducer-0.1.0-py3-none-any.whl
+Installing collected packages: crumb-reducer
+  Attempting uninstall: crumb-reducer
+    Found existing installation: crumb-reducer 0.1.0
+    Uninstalling crumb-reducer-0.1.0:
+      Successfully uninstalled crumb-reducer-0.1.0
+Successfully installed crumb-reducer-0.1.0

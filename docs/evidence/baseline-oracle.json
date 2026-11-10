@@ -1,0 +1,16 @@
+{
+  "original_unchanged": true,
+  "full_input_correct": true,
+  "full_input_exit": 0,
+  "retransmission_deduplicated": true,
+  "different_supplier_separate": true,
+  "same_key_conflict_rejected": true,
+  "compact_reproducer_verified": true,
+  "reproducers": [
+    {
+      "path": "reproducer.csv",
+      "records": 2
+    }
+  ],
+  "all_gates_pass": true
+}

@@ -1,0 +1,9 @@
+Processing ./.
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: crumb-reducer
+  Building wheel for crumb-reducer (pyproject.toml): started
+  Building wheel for crumb-reducer (pyproject.toml): finished with status 'done'
+  Created wheel for crumb-reducer: filename=crumb_reducer-0.1.0-py3-none-any.whl size=23940 sha256=5e110962167d9fb4d7bb504cf98defc0c32457969e3df0c5fd1e076fe0f696b8
+  Stored in directory: /tmp/pip-ephem-wheel-cache-mguoeyw2/wheels/7d/03/48/bb11315e12f5caedc6e7787f3a1a475ca32b76ddec9db36418
+Successfully built crumb-reducer

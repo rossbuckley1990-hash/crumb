@@ -1,0 +1,16 @@
+{
+  "wheel": {
+    "name": "crumb_reducer-0.1.0-py3-none-any.whl",
+    "bytes": 23940,
+    "sha256": "5e110962167d9fb4d7bb504cf98defc0c32457969e3df0c5fd1e076fe0f696b8",
+    "runtime_dependencies": []
+  },
+  "installed_validation": {
+    "units_before": 12000,
+    "units_after": 2,
+    "calls": 75,
+    "elapsed_seconds": 3.2732,
+    "source_unchanged": true,
+    "verified_final": true
+  }
+}

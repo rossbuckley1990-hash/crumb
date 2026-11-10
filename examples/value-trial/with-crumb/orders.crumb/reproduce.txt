@@ -1,0 +1,8 @@
+Run from the same environment and working directory as the original command.
+This command may have side effects. Inspect it before running.
+
+Working directory: /workspace/scratch/00545f7f48fa/research/value-trial/with-crumb
+POSIX command: python3 import_orders.py /workspace/scratch/00545f7f48fa/research/value-trial/with-crumb/orders.crumb/repro.csv
+
+The command arguments as a portable JSON array are in report.json.
+The program/dependencies are not bundled; sharing this directory alone may not reproduce elsewhere.
